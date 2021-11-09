@@ -1,0 +1,18 @@
+{
+  "name": "opensea-seller",
+  "version": "1.0.0",
+  "description": "A very simple script that uses Selenium and Chrome to sell tokens on the Polygon chain in OpenSea because it's not supported through SeaPort JS SDK",
+  "main": "sell.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^95.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "selenium-webdriver": "^4.0.0"
+  }
+}
